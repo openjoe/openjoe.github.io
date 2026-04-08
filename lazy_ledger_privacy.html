@@ -1,121 +1,210 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>隐私政策 - 懒人记账</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-            line-height: 1.6;
-            padding: 20px;
-            color: #333;
-            background-color: #fff;
-        }
-        h1, h2 {
-            color: #222;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Lazy Ledger</title>
+  <style>
+    :root {
+      --bg: #f7f6fb;
+      --card: #ffffff;
+      --text: #22252b;
+      --muted: #666b75;
+      --primary: #6834dc;
+      --border: #e7e8ee;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(180deg, #f9f6ff 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 32px 24px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.06);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 34px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-size: 22px;
+      color: var(--primary);
+    }
+
+    h3 {
+      margin-top: 20px;
+      margin-bottom: 8px;
+      font-size: 17px;
+    }
+
+    p, li {
+      font-size: 15px;
+      color: var(--text);
+    }
+
+    .meta {
+      margin-bottom: 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 8px 0 16px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 28px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
+  <main class="container">
+    <section class="card">
+      <h1>Privacy Policy</h1>
+      <div class="meta">Last updated: April 15, 2026</div>
 
-<h1>隐私政策</h1>
+      <p>
+        Lazy Ledger (“we”, “our”, or “the app”) respects your privacy. This Privacy Policy explains
+        what information we collect, how we use it, and what choices you have when using the app.
+      </p>
 
-<p>欢迎使用「懒人记账」。我们非常重视您的隐私保护。本隐私政策旨在向您说明我们如何收集、使用和保护您的信息。</p>
+      <h2>1. Information We Collect</h2>
 
-<p><strong>生效日期：</strong>2026年04月01日</p>
+      <p>When you use Lazy Ledger, we may collect the following information:</p>
 
----
+      <h3>1.1 Account Information</h3>
+      <ul>
+        <li>Email address</li>
+        <li>Account authentication status</li>
+      </ul>
 
-<h2>一、我们收集的信息</h2>
+      <h3>1.2 Profile Information</h3>
+      <ul>
+        <li>Nickname or profile name you set in the app</li>
+      </ul>
 
-<h3>1. 账户信息</h3>
-<p>当您注册账号时，我们会收集您的邮箱地址及密码，用于账号创建与登录。</p>
+      <h3>1.3 User Content</h3>
+      <ul>
+        <li>Expense and income records you create, including:</li>
+        <li>Category</li>
+        <li>Amount</li>
+        <li>Date</li>
+        <li>Note content</li>
+      </ul>
 
-<h3>2. 记账数据</h3>
-<p>您在使用过程中输入的记账信息，包括但不限于：</p>
-<ul>
-    <li>收入 / 支出金额</li>
-    <li>分类信息</li>
-    <li>日期</li>
-    <li>备注信息（如填写）</li>
-</ul>
+      <h3>1.4 Feedback Information</h3>
+      <ul>
+        <li>Feedback content you voluntarily submit through the app</li>
+      </ul>
 
-<h3>3. 反馈信息</h3>
-<p>当您使用“意见反馈”功能时，我们会收集您填写的反馈内容。</p>
+      <h2>2. How We Use Information</h2>
+      <p>We use the collected information only for the following purposes:</p>
+      <ul>
+        <li>To create and manage your account</li>
+        <li>To authenticate your login</li>
+        <li>To store and sync your ledger records</li>
+        <li>To display statistics and summaries based on your records</li>
+        <li>To improve app stability and user experience</li>
+        <li>To review and respond to user feedback</li>
+      </ul>
 
----
+      <h2>3. Third-Party Services</h2>
+      <p>
+        Lazy Ledger uses Supabase as a third-party backend service provider for account authentication,
+        database storage, and data synchronization.
+      </p>
+      <p>
+        Your information may be processed or stored through Supabase infrastructure as required for the
+        app’s core functionality.
+      </p>
 
-<h2>二、我们如何使用您的信息</h2>
+      <h2>4. Data Storage and Security</h2>
+      <p>
+        We take reasonable measures to protect your data. However, no internet transmission or storage
+        system can be guaranteed to be 100% secure.
+      </p>
+      <p>You are responsible for keeping your login credentials safe.</p>
 
-我们收集的信息仅用于以下用途：
+      <h2>5. Data Retention</h2>
+      <p>
+        We retain your data for as long as your account remains active or as necessary to provide the service.
+      </p>
+      <p>
+        If you request account deletion, we will delete or anonymize your account-related data within a
+        reasonable time, unless retention is required by law or for legitimate operational reasons.
+      </p>
 
-<ul>
-    <li>提供记账功能服务</li>
-    <li>实现账号登录与数据同步</li>
-    <li>改进产品体验</li>
-    <li>处理用户反馈</li>
-</ul>
+      <h2>6. Your Rights</h2>
+      <p>Depending on your jurisdiction, you may have the right to:</p>
+      <ul>
+        <li>Access your data</li>
+        <li>Update your profile information</li>
+        <li>Delete your records</li>
+        <li>Request deletion of your account and associated data</li>
+      </ul>
+      <p>
+        If you want to request deletion of your account and related data, please contact us through the
+        email address below.
+      </p>
 
----
+      <h2>7. Children’s Privacy</h2>
+      <p>
+        Lazy Ledger is not directed to children under the age required by applicable law. We do not knowingly
+        collect personal information from children.
+      </p>
 
-<h2>三、数据存储与安全</h2>
+      <h2>8. Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Updated versions will be published on this page
+        with a revised “Last updated” date.
+      </p>
 
-<p>应用使用第三方服务 Supabase 提供账号认证、数据存储与数据同步能力，包括但不限于加密存储和访问控制。</p>
+      <h2>9. Contact</h2>
+      <p>
+        If you have any questions about this Privacy Policy, please contact:
+        <a href="mailto:466350665@qq.com">466350665@qq.com</a>
+      </p>
 
-<p>您的记账数据仅用于本应用，不会用于任何未经授权的用途。</p>
-
----
-
-<h2>四、数据共享与披露</h2>
-
-<p>我们不会向任何第三方出售或出租您的个人信息。</p>
-
-<p>仅在以下情况下可能披露信息：</p>
-<ul>
-    <li>法律法规要求</li>
-    <li>保护用户或公众安全</li>
-</ul>
-
----
-
-<h2>五、您的权利</h2>
-
-您有权：
-
-<ul>
-    <li>访问和查看您的数据</li>
-    <li>修改或删除您的数据</li>
-</ul>
-
----
-
-<h2>六、数据保留</h2>
-
-<p>我们会在您使用本服务期间保留您的数据，除非您主动删除或法律另有要求。</p>
-
----
-
-<h2>七、未成年人保护</h2>
-
-<p>本应用不面向未满18周岁的未成年人。如您为未成年人，请在监护人指导下使用。</p>
-
----
-
-<h2>八、隐私政策的更新</h2>
-
-<p>我们可能会适时更新本隐私政策。更新后将在应用内发布。</p>
-
----
-
-<h2>九、联系我们</h2>
-
-<p>如您对本隐私政策有任何疑问，可通过以下方式联系我们：</p>
-
-<p>邮箱：lazyledger@126.com</p>
-
----
-
-<p>感谢您使用「懒人记账」。</p>
-
+      <div class="footer">
+        Lazy Ledger Privacy Policy
+      </div>
+    </section>
+  </main>
 </body>
 </html>
